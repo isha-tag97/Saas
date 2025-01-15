@@ -1,7 +1,25 @@
-
+@use "src/Color" as c;
+// @use './Color';
+$primary-color: #bbd3df;
 .container{
-  background-color: var(--body-color);
+  background-color: $primary-color;
+  // background-color: var(--body-color);
+ 
 }
 .title{
-  color: var(--h1-color-green);
-}   
+  color: var(--main-color)
+}  
+.hover-btn {
+  // @include c.pink; 
+  background-color:#b37399;
+  // background-color: c.$a1;
+  // background-color: var(--body-color);
+  border: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #f4cfe6;
+    transform: scale(1.1);    
+}
+}

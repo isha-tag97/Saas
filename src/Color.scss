@@ -1,3 +1,4 @@
+$a1 : #317EEB;
 :root{
     --body-color: #e6ccff;
     --title-color:black;
@@ -5,3 +6,7 @@
     --main-color: #317EEB;
     --h1-color-green: green;
 }
+@mixin pink {
+    $color: #d795bd; 
+  }
+  
