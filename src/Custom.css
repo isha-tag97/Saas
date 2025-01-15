@@ -1,0 +1,23 @@
+
+.custom-form-control:focus {
+    color: white;
+    box-shadow: none !important;
+  }
+  .form-floating label {
+    color: white !important;
+  }
+  label[for="floatingEmail"]::after {
+    /* content: ""; */
+    background-color: transparent !important;
+    
+  }
+  label[for="floatingPassword"]::after {
+    /* content: ""; */
+    background-color: transparent !important;
+  }
+  /* .form-control{
+    color: #fff !important;
+  } */
+  .formPassword .form-control{
+    color: #fff !important;
+  }

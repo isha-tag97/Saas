@@ -1,0 +1,42 @@
+@import './Sass/test1.scss';
+@import './Color.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* START: login */
+
+.custom-form-control:focus {
+  color: white;
+  box-shadow: none !important;
+}
+.form-floating label {
+  color: white !important;
+}
+label[for="floatingEmail"]::after {
+  /* content: ""; */
+  background-color: transparent !important;
+  
+}
+label[for="floatingPassword"]::after {
+  /* content: ""; */
+  background-color: transparent !important;
+}
+/* .form-control{
+  color: #fff !important;
+} */
+.formPassword .form-control{
+  color: #fff !important;
+}
+/* END: login */
